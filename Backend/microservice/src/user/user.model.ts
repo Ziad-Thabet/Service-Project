@@ -1,4 +1,4 @@
-import { Schema, Document, model } from 'mongoose';
+import { Schema, Document, model, Number } from 'mongoose';
 import * as bcrypt from 'bcrypt';
 
 export interface User extends Document {
@@ -6,6 +6,7 @@ export interface User extends Document {
   readonly lastName: string;
   readonly userName: string;
   readonly email?: string;
+  readonly age: number;
   password: string;
   fullName?: string;
   readonly createdAt?: Date;
@@ -31,6 +32,11 @@ export const UserSchema = new Schema<User>({
     type: String,
     required: true,
     unique: true,
+    trim: true,
+  },
+  age: {
+    type: Number,
+    required: true,
     trim: true,
   },
   email: {
