@@ -1,0 +1,278 @@
+
+@import url("http://use.fontaWesome.com/releases/v6.5.1/css/all.css");
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body .bo{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 1.5;
+}
+ul{
+
+
+  
+  list-style: none;
+}
+.container{
+  width: 95%;
+  margin: auto;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px 0;
+  font-size: 13px; 
+}
+
+.main .logo{
+  width: 110px;
+  
+}
+.main ul{
+  display: flex;
+ 
+}
+.main ul li{
+  padding: 0 10px;
+}
+.main ul li a{
+  padding-bottom: 2px;
+}
+.main ul li a:hover{
+  border-bottom: 2px soild black;
+}
+.main ul.main-menu {
+  flex:1;
+  margin-left: 20px;
+  font-size: 20px;
+  gap: 200px;
+  text-align: center;
+
+}
+.price{
+  color: rgb(253, 255, 253);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  text-align: center;
+}
+.kuo:hover{
+  color: rgb(242, 214, 4);
+  text-shadow: 8px 5px 7px rgb(236, 240, 237);
+
+}
+.btn{
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px   20px;
+  background: black;
+  color: white;
+  font-size: 15px;
+}
+.btn:hover{
+  opacity: 0.6;
+}
+.New{
+  color: red;
+}
+.dark{
+  color: white;
+}
+.dark .btn{
+  background: #f4f4f4;
+  color: #333;
+}
+.we{
+color: rgb(250, 249, 246);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: xx-large;
+}
+.showcase{
+  width: 100%;
+  height: 400px;
+  background: url("Screenshot 2023-12-15 170603.png") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+.showcase h2, .showcase p{
+  margin-bottom: 20px;
+}
+.showcase .btn{
+  margin-top: 20px;
+}
+.home-cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap:20px ;
+  margin-bottom: 40px;
+}
+.imgaa{
+  position: relative;
+  top: 99px;
+  width: 12%;
+}
+.home-cards img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.home-cards h3 {
+  margin-bottom: 5px;
+  text-align: center;
+  color: red;
+}
+.home-cards P{
+  text-align: center;
+  color: rgb(255, 255, 255);
+} 
+.home-cards a{
+  display: inline-block;
+  padding-top: 10px;
+  color: #0067b8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.home-cards a:hover i{
+  margin-left: 10px;
+}
+.hary{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 80px;
+  color: black;
+}
+.PP{
+  color: black;
+}
+.xbox{
+  width: 100%;
+  height: 450px;
+  background: url("workout-limitless-endurance-gym-colorful-smoke-3556x2000-929.jpg") no-repeat center center/cover;
+  margin-bottom: 20px;
+}
+.xbox .content {
+  width: 40%;
+  padding: 50px 0 0 30px;
+}
+.xbox p,.carbon p {
+  margin: 10px 0 20px;
+}
+.carbon{
+  width: 100%;
+  height: 350px;
+  /* background: url("https://i.ibb.co/tBJGPD9/x-box.png") no-repeat center center/cover; */
+}
+.carbon .content{
+  width: 55%;
+  padding: 100px 0 0 30px;
+}
+.follow{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start ;
+  margin: 30px 0 30px;
+}
+.follow *{
+  margin-right: 10px;
+}
+.links{
+  background: rgb(0, 0, 0);
+  color: white;
+  font-size: 12px;
+  padding: 35px 0;
+}
+.links-inner{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(6 , 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  gap: 200px;
+  justify-content: center;
+}
+.links li {
+  line-height: 2.8;
+}
+.footer{
+  background: #f2f2f2;
+  color: #1e1d1d;
+  font-size: 12px;
+  padding: 20px 0;
+}
+.fotter-inner{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+.footer div{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.footer div i{
+  margin-right: 10px;
+}
+.footer ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.fotter li{
+  margin-right: 30px;
+  margin-bottom: 20px; 
+
+}
+
+/* ///scole */
+
+.logout {
+    
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #fffdfe;
+    background: linear-gradient(to right, #2f0101, #ce1111, #780a1d);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+  }
+  .Link{
+    color: #f4f4f4;
+  }
+  
+  .logout svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .logout span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .logout:hover svg {
+    transform: translateX(5px) rotate(90deg);
+  }
+  
+  .logout:hover span {
+    transform: translateX(7px);
+  }
