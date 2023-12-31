@@ -19,12 +19,12 @@ function Restration() {
           </div>
 
           <div className="input-box">
-          <input type="text" placeholder=" First username" required/>
+          <input type="text" placeholder=" First name" required/>
           <FaUser className="icon"/>
           </div>
 
           <div className="input-box">
-          <input type="text" placeholder="Last username" required/>
+          <input type="text" placeholder="Last name" required/>
           <FaUser className="icon"/>
           </div>
   

@@ -13,10 +13,10 @@ function First() {
     <nav className='main'>
 <img src={bt} alt='#' className='imgaa'></img>
 <ul className='main-menu'>
-  <li className='kuo'>protein</li>
-  <li className='kuo'>creatien</li>
-  <li className='kuo'>pre workout</li>
-  <li className='kuo'>GH </li>
+  <Link to="/Protien"><li className='kuo'>protein</li></Link>
+  <Link to="/Creatien"><li className='kuo'>creatien</li></Link>
+  <Link to="/Preworks"><li className='kuo'>pre workout</li></Link>
+  <Link to="/Fautemn"><li className='kuo'>GH </li></Link>
 </ul>
 
 <Link to='/login' className='Link'><button className='logout'>
@@ -105,7 +105,7 @@ the <span className='New'>NEW</span> Supplements
         what.s new
         </h3> 
         </li>
-      <li>service</li>
+     <Link to="/SERVICES"> <li>service</li></Link>
       <li>service</li>
       <li>service</li>
     </ul>
