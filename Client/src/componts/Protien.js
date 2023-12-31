@@ -1,96 +1,110 @@
 import"./Protein.css"
-import bt from "./photo/Screenshot_2023-12-15_165949-removebg-preview.png"
-import btt from "./photo/61NoaSZARtL._AC_UL600_SR600_600_-removebg-preview.png"
-import bts from "./photo/447974_C4_PreWorkout_WWE_Pomegranate_PileDriver_Front-removebg-preview.png"
+import btf from "./photo protien/BPI-Whey-HD-on-Acacia-World-1.webp"
+import bttr from "./photo protien/download (1).jpeg"
+import btq from "./photo protien/download (2).jpeg"
+import btw from "./photo protien/download-removebg-preview (1).png"
+import bte from "./photo protien/download.jpeg"
+import btr from "./photo protien/download__1_-removebg-preview.png"
+import by from "./photo protien/download__2_-removebg-preview.png"
+import btss from "./photo protien/images (1).jpeg"
+import btg from "./photo protien/images (10).jpeg"
+import btsq from "./photo protien/images (11).jpeg"
+import bta from "./photo protien/images (12).jpeg"
+import btz from "./photo protien/images (13).jpeg"
+import bto from "./photo protien/images (14).jpeg"
+import btp from "./photo protien/images (2).jpeg"
+import btv from "./photo protien/images (3).jpeg"
+import btzx from "./photo protien/images (4).jpeg"
+import btzq from "./photo protien/images (5).jpeg"
 import { Link } from "react-router-dom"
 const Protien = () => {
 
     const data=[
         {
-        name:"dfkjkfds",
-        img:bt,
-        resia:"sdlnflsjdf"
+        name:"BPI coces",
+        img:btf,
+        price:"50$"
         },
         {
-        name:"sdklfmdslkf",
-        img:btt,
-        resia:"sdlfkmsldmkfd"
+        name:"ISO 100",
+        img:btq,
+        price:"90$"
         },
         {
-        name:"sdl;fsdf,",
-        img:bts,
-        resia:"sdfkjlndsflsjkd"
+        name:"whey ",
+        img:bttr,
+        price:"50$"
         },
         {
-        name:"dfkjkfds",
-        img:bt,
-        resia:"sdlnflsjdf"
+        name:" whey gold ",
+        img:bto,
+        price:"40$"
         },
         {
-        name:"sdklfmdslkf",
-        img:btt,
-        resia:"sdlfkmsldmkfd"
+        name:"whey coces",
+        img:btzx,
+        price:"100$"
         },
         {
-        name:"sdl;fsdf,",
-        img:bts,
-        resia:"sdfkjlndsflsjkd"
+        name:"whey HD",
+        img:btv,
+        price:"20$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"HPI soclat",
+            img:btp,
+            price:"60$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"iso fifx",
+            img:btz,
+            price:"80$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"whey",
+            img:btw,
+            price:"70$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"Hpi",
+            img:btss,
+            price:"60$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"isolit",
+            img:btsq,
+            price:"50$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"whey HD",
+            img:btzq,
+            price:"60$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"whey standered",
+            img:btr,
+            price:"80$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"iso",
+            img:by,
+            price:"30$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"whey ",
+            img:btg,
+            price:"80$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"protien whey",
+            img:bte,
+            price:"60$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
-        },
+            name:"proptein",
+            img:bta,
+            price:"50$"
+        }
 
  ]
     return (
@@ -100,7 +114,7 @@ const Protien = () => {
                 Back
                 </button></Link>
 
-        <h1 className='gt'> Protien </h1>
+        <h1 className='gt'> *Protien* </h1>
         <div className="container">
            
             {
@@ -111,7 +125,7 @@ const Protien = () => {
                             <div className="card_inner">
                                 <img src={d.img} alt="" />
                                 <div className="userName">{d.name}</div>
-                                <div className="userUrl">{d.resia}</div>
+                                <div className="userUrl">{d.price}</div>
                                 <div className="detail-box">
 
                                 </div>

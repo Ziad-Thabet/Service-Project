@@ -1,95 +1,110 @@
 import"./Preworks.css"
-import bt from "./photo/Screenshot_2023-12-15_165949-removebg-preview.png"
-import btt from "./photo/61NoaSZARtL._AC_UL600_SR600_600_-removebg-preview.png"
-import bts from "./photo/447974_C4_PreWorkout_WWE_Pomegranate_PileDriver_Front-removebg-preview.png"
+import kts from"./photo prework/images__34_-removebg-preview.png"
+import kt from"./photo prework/images__35_-removebg-preview.png"
+import kti from"./photo prework/images__36_-removebg-preview.png"
+import ktu from"./photo prework/images__37_-removebg-preview.png"
+import kth from"./photo prework/images__38_-removebg-preview.png"
+import kta from"./photo prework/images__39_-removebg-preview.png"
+import ktj from"./photo prework/images__40_-removebg-preview.png"
+import ktk from"./photo prework/images__41_-removebg-preview.png"
+import ktv from"./photo prework/images__42_-removebg-preview.png"
+import ktb from"./photo prework/images__43_-removebg-preview.png"
+import ktn from"./photo prework/images__44_-removebg-preview.png"
+import ktq from"./photo prework/images__45_-removebg-preview.png"
+import ktm from"./photo prework/images__46_-removebg-preview.png"
+import ktz from"./photo prework/images__47_-removebg-preview.png"
+import ktc from"./photo prework/images__48_-removebg-preview.png"
+import ktcs from"./photo prework/images__49_-removebg-preview.png"
+import poy from"./photo prework/images__50_-removebg-preview.png"
+
 import { Link } from "react-router-dom"
 const Protien = () => {
 
     const data=[
         {
-        name:"dfkjkfds",
-        img:bt,
+        name:"prework stomp",
+        img:kts,
+        resia:"40$"
+        },
+        {
+        name:"prework nitro",
+        img:kti,
+        resia:"20$"
+        },
+        {
+        name:"prework ko ",
+        img:kt,
+        resia:"26$"
+        },
+        {
+        name:"prework halk",
+        img:kth,
         resia:"sdlnflsjdf"
         },
         {
-        name:"sdklfmdslkf",
-        img:btt,
+        name:"prework ",
+        img:kta,
         resia:"sdlfkmsldmkfd"
         },
         {
-        name:"sdl;fsdf,",
-        img:bts,
-        resia:"sdfkjlndsflsjkd"
+        name:"prework iso ",
+        img:ktu,
+        resia:"22$"
         },
         {
-        name:"dfkjkfds",
-        img:bt,
-        resia:"sdlnflsjdf"
+            name:"prework ",
+            img:ktk,
+            resia:"32$"
         },
         {
-        name:"sdklfmdslkf",
-        img:btt,
-        resia:"sdlfkmsldmkfd"
+            name:"prework #1",
+            img:ktq,
+            resia:"39$"
         },
         {
-        name:"sdl;fsdf,",
-        img:bts,
-        resia:"sdfkjlndsflsjkd"
+            name:"prework roar",
+            img:ktj,
+            resia:"40$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"prework pr",
+            img:ktn,
+            resia:"45$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"prework iG",
+            img:ktb,
+            resia:"40$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"prework wh",
+            img:ktm,
+            resia:"45$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"prework bulk",
+            img:ktv,
+            resia:"35$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"prework bulk",
+            img:ktz,
+            resia:"25$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"prework sur",
+            img:ktc,
+            resia:"15$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"prework most",
+            img:poy,
+            resia:"18$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
-        },
-        {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
-        },
-        {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
-        },
-        {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"prework C4",
+            img:ktcs,
+            resia:"36$"
         },
 
  ]
@@ -100,7 +115,7 @@ const Protien = () => {
                 Back
                 </button></Link>
 
-        <h1 className='gt'> Protien </h1>
+        <h1 className='gt'> *Pre workout* </h1>
         <div className="container">
            
             {

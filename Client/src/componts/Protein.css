@@ -151,11 +151,11 @@ body .hys {
 }
 
 .container .card_item .userUrl {
-	font-size: 12px;
+	font-size: 14px ;
 	font-weight: 100;
 	margin: 5px 0 10px;
 	word-wrap: break-word;
-	color: #888B9E;
+	color: #000000;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }

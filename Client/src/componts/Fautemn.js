@@ -1,95 +1,110 @@
 import"./Fautemn.css"
-import bt from "./photo/Screenshot_2023-12-15_165949-removebg-preview.png"
-import btt from "./photo/61NoaSZARtL._AC_UL600_SR600_600_-removebg-preview.png"
-import bts from "./photo/447974_C4_PreWorkout_WWE_Pomegranate_PileDriver_Front-removebg-preview.png"
+import vq from "./photo multivitamin/images__52_-removebg-preview.png"
+import vw from "./photo multivitamin/images__53_-removebg-preview.png"
+import ve from "./photo multivitamin/images__54_-removebg-preview.png" 
+import vr from "./photo multivitamin/images__55_-removebg-preview.png"
+import vt from "./photo multivitamin/images__56_-removebg-preview.png"
+import vy from "./photo multivitamin/images__57_-removebg-preview.png"
+import vu from "./photo multivitamin/images__72_-removebg-preview.png"
+import va from "./photo multivitamin/images__60_-removebg-preview.png"
+import vs from "./photo multivitamin/images__61_-removebg-preview.png"
+import vd from "./photo multivitamin/images__62_-removebg-preview.png"
+import vf from "./photo multivitamin/images__63_-removebg-preview.png"
+import vg from "./photo multivitamin/images__64_-removebg-preview.png"
+import vh from "./photo multivitamin/images__65_-removebg-preview.png"
+import vj from "./photo multivitamin/images__66_-removebg-preview.png"
+import vc from "./photo multivitamin/images__67_-removebg-preview.png"
+import vx from "./photo multivitamin/images__68_-removebg-preview.png"
+import vz from "./photo multivitamin/images__69_-removebg-preview.png"
+
 import { Link } from "react-router-dom"
 const Protien = () => {
 
     const data=[
         {
-        name:"dfkjkfds",
-        img:bt,
-        resia:"sdlnflsjdf"
+        name:"multivitamin",
+        img:vq,
+        resia:"40$"
         },
         {
-        name:"sdklfmdslkf",
-        img:btt,
-        resia:"sdlfkmsldmkfd"
+        name:"multivitamin",
+        img:vw,
+        resia:"20$"
         },
         {
-        name:"sdl;fsdf,",
-        img:bts,
-        resia:"sdfkjlndsflsjkd"
+        name:"multivitamin",
+        img:ve,
+        resia:"40$"
         },
         {
-        name:"dfkjkfds",
-        img:bt,
-        resia:"sdlnflsjdf"
+        name:"multivitamin",
+        img:vr,
+        resia:"42$"
         },
         {
-        name:"sdklfmdslkf",
-        img:btt,
-        resia:"sdlfkmsldmkfd"
+        name:"multivitamin",
+        img:vt,
+        resia:"15$"
         },
         {
-        name:"sdl;fsdf,",
-        img:bts,
-        resia:"sdfkjlndsflsjkd"
+        name:"multivitamin",
+        img:vg,
+        resia:"20$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"multivitamin",
+            img:vy,
+            resia:"30$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"multivitamin",
+            img:vc,
+            resia:"40$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"multivitamin",
+            img:vs,
+            resia:"50$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"multivitamin",
+            img:vx,
+            resia:"10$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"multivitamin",
+            img:vf,
+            resia:"12$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"multivitamin",
+            img:va,
+            resia:"12$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"multivitamin",
+            img:vd,
+            resia:"15$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"multivitamin",
+            img:vh,
+            resia:"20$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"multivitamin",
+            img:vu,
+            resia:"40$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"multivitamin",
+            img:vj,
+            resia:"50$"
         },
         {
-            name:"sdl;fsdf,",
-            img:bts,
-            resia:"sdfkjlndsflsjkd"
+            name:"multivitamin",
+            img:vz,
+            resia:"21$"
         },
 
  ]
@@ -100,7 +115,7 @@ const Protien = () => {
                 Back
                 </button></Link>
 
-        <h1 className='gt'> Protien </h1>
+        <h1 className='gt'> *multivitamin* </h1>
         <div className="container">
            
             {

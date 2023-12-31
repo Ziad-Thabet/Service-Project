@@ -12,6 +12,9 @@ body .bo{
   font-size: 15px;
   line-height: 1.5;
 }
+.ppo{
+  color: white;
+}
 ul{
 
 
@@ -62,10 +65,9 @@ ul{
   font-size: larger;
   text-align: center;
 }
-.kuo:hover{
-  color: rgb(242, 214, 4);
-  text-shadow: 8px 5px 7px rgb(236, 240, 237);
-
+.kso:hover{
+  color: red;
+  box-shadow:  5px 7px 10px color(srgb red green blue);
 }
 .btn{
   cursor: pointer;
